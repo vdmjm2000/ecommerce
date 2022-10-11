@@ -1,5 +1,3 @@
-<?php require_once("inc/init.inc.php"); ?>
-
 <?php require_once("inc/init.inc.php");
 //--------------------------------- TRAITEMENTS PHP ---------------------------------//
 if($_POST)
@@ -40,7 +38,7 @@ if($_POST)
 <?php require_once("inc/haut.inc.php"); ?>
 
  
-<form method="post" action="">
+<form method="post" action="" >
     <label for="pseudo">Pseudo</label><br>
     <input type="text" id="pseudo" name="pseudo" maxlength="20" placeholder="votre pseudo" pattern="[a-zA-Z0-9-_.]{1,20}" title="caractères acceptés : a-zA-Z0-9-_." required="required"><br><br>
           
