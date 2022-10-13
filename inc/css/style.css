@@ -1,13 +1,28 @@
 * {
   margin: 0;
 }
-a {
+
+
+.menu_admin {
   text-decoration: none;
-  color: #000;
+  color:#669933;
+  border:solid coral;
 }
+
+.menu_membre {
+    text-decoration: none;
+    color: yellow;
+    border:solid grey;
+  }
+
 .conteneur {
   margin: 0 auto;
 }
+
+.logo { 
+  text-align: left;
+}
+
 /**************************************************** HAUT ************************************************/
 header {
   background: #000000;
@@ -32,6 +47,16 @@ header nav a:hover {
   background: #04baf6;
 }
 /**************************************************** MILIEU ************************************************/
+
+.centre{ 
+    text-align: center; 
+    background-color: lightgrey;  
+    }
+
+.cadre{
+    border: solid;
+}
+
 section {
   padding: 30px;
   min-height: 800px;
