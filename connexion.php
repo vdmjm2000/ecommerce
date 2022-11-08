@@ -35,14 +35,14 @@ if($_POST)
 <?php require_once("inc/haut.inc.php"); ?>
 <?php echo $contenu; ?>
  
-<form method="post" action="">
+<form class="form-control form-control-sm" method="post" action="">
     <label for="pseudo">Pseudo</label><br>
     <input type="text" id="pseudo" name="pseudo"><br> <br>
          
     <label for="mdp">Mot de passe</label><br>
     <input type="password" id="mdp" name="mdp"><br><br>
  
-     <input type="submit" value="Se connecter">
+     <input type="submit" class="btn btn-outline-info value="Se connecter">
 </form>
  
 <?php require_once("inc/bas.inc.php"); ?>
